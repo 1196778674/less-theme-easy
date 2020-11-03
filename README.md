@@ -6,7 +6,7 @@ write theme style more easy!
 ## lessc usage
 
 ```
-npm install -g less-plugin-theme-easy
+npm install -g less-theme-easy
 ```
 
 and then on the command line,
@@ -17,7 +17,7 @@ lessc file.less --theme-easy
 
 ```
 webpack 配置
-const LessThemePlugin = require('less-plugin-theme-easy')
+const LessThemePlugin = require('less-theme-easy')
 css: {
     loaderOptions: {
       // 给 less-loader 传递 Less.js 相关选项
