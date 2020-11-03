@@ -15,6 +15,21 @@ and then on the command line,
 lessc file.less --theme-easy
 ```
 
+```
+webpack 配置
+const LessThemePlugin = require('less-plugin-theme-easy')
+css: {
+    loaderOptions: {
+      // 给 less-loader 传递 Less.js 相关选项
+      less: {
+        plugins: [
+          new LessThemePlugin(),
+        ],
+      }
+    }
+  }
+```
+
 Try the following code
 ```less
 @color: red;
