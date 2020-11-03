@@ -15,7 +15,7 @@ and then on the command line,
 lessc file.less --theme-easy
 ```
 
-```
+```less
 webpack 配置
 const LessThemePlugin = require('less-theme-easy')
 css: {
