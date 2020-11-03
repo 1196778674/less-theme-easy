@@ -1,0 +1,51 @@
+@import "./variables";
+
+.contract-item {
+  display: table-row;
+  vertical-align: middle;
+  color: theme(@color-font-regular);
+  letter-spacing: 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  * {
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  &:hover, &.active {
+    color: theme(@color-panel-item-active);
+    background-color: theme(@color-panel-item-bg-active);
+  }
+
+  > * {
+    display: table-cell;
+
+    &:nth-child(1) {
+      padding-left: 16px;
+    }
+
+    &:nth-child(2) {
+      text-align: right;
+      padding: 0 0 0 15px;
+    }
+
+    &:nth-child(3) {
+      text-align: right;
+      padding: 0 31px 0 10px;
+    }
+  }
+
+  .favorite-icon {
+    font-size: inherit;
+    margin-right: 5px;
+
+    &.hyicon-star {
+      color: theme(@color-btn-bg-active);
+    }
+
+    &.hyicon-star-not {
+      color: theme(@color-fill-regular);
+    }
+  }
+}

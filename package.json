@@ -1,0 +1,39 @@
+{
+  "name": "less-plugin-theme-easy",
+  "version": "1.0.4",
+  "description": "easy to write theme code.",
+  "author": "MinionsHeror",
+  "bugs": {
+    "url": "https://github.com/MinionsHero/less-plugin-theme.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinionsHero/less-plugin-theme.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache v2",
+      "url": "https://github.com/MinionsHero/less-plugin-theme.git/LICENSE"
+    }
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=9"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "devDependencies": {
+    "less": ">=2.0.0"
+  },
+  "keywords": [
+    "less plugins",
+    "theme"
+  ],
+  "homepage": "https://github.com/MinionsHero/less-plugin-theme#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "ISC"
+}
